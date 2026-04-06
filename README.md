@@ -1,6 +1,6 @@
-# Data Science Environment Verification
+# Data Science Environment & Workspace Verification
 
-This project verifies that Python, Conda, and Jupyter Notebook are correctly installed and working for Data Science workflows.
+This project verifies that Python, Conda, and Jupyter Notebook are correctly set up and that Jupyter workspace navigation and file management are properly understood.
 
 ---
 
@@ -43,7 +43,7 @@ This confirms:
 
 Conda is installed and working
 A virtual environment (ds_env) is created
-The environment is active (*)
+The environment is active
 Environment Usage
 
 Activate Environment:
@@ -73,14 +73,42 @@ This confirms:
 
 Jupyter is installed correctly
 Python code executes successfully inside Jupyter
-The environment is ready for Data Science work
+Jupyter Workspace Verification
+Launch Directory
+
+Jupyter Notebook was launched from the project repository folder:
+
+cd <your-repo-name>
+conda activate ds_env
+jupyter notebook
+
+This ensures notebooks are created inside the project directory.
+
+Home Interface Understanding
+The Jupyter home page displays files and folders in the current directory
+Navigation is done by clicking folders
+Breadcrumbs show the current path
+Notebook Creation
+Created a notebook named: workspace_test.ipynb
+Notebook is saved inside the project repository folder
+Notebook Execution
+
+Executed the following code:
+
+print("workspace ok")
+
+Output:
+
+workspace ok
+File Management
+Notebook was renamed correctly
+Changes were saved
+Notebook was closed and reopened successfully
 Conclusion
-
-The environment setup has been successfully verified:
-
 Python is installed and working
 Conda is installed and environments function correctly
-A dedicated environment (ds_env) is active
-Jupyter Notebook runs and executes Python code
+Jupyter Notebook launches and runs code
+Notebook is created in the correct project directory
+Workspace navigation and file management are understood
 
-The system is now ready for Data Science development.
+The system is fully ready for Data Science development.
