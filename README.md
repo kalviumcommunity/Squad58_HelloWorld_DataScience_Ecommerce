@@ -1,17 +1,17 @@
-# 🧹 Python Code Readability (PEP 8 & Comments)
+# 🏗️ Python Code Structure & Reusability
 
 ## 📌 Overview
 
-This project demonstrates how to write clean and readable Python code using proper variable naming and meaningful comments.
+This project demonstrates how to structure Python code for readability, reuse, and maintainability.
 
 ---
 
 ## 🎯 Objectives
 
-* Use descriptive variable names
-* Follow PEP 8 naming conventions
-* Write useful comments
-* Avoid unnecessary or redundant comments
+* Organize code into logical sections
+* Use functions to avoid repetition
+* Separate setup, logic, and execution
+* Write clean and readable scripts
 
 ---
 
@@ -21,7 +21,7 @@ This project demonstrates how to write clean and readable Python code using prop
 project/
 │
 ├── script/
-│   └── readability_demo.py
+│   └── structured_code_demo.py
 └── README.md
 ```
 
@@ -29,22 +29,25 @@ project/
 
 ## 🧠 Concepts Covered
 
-### 1. Variable Naming
+### 1. Code Organization
 
-* Use meaningful names
-* Follow snake_case style
-* Avoid vague names like x, y
+* Setup section for variables
+* Separate function definitions
+* Clear execution flow
 
-### 2. PEP 8 Conventions
+### 2. Functions for Reuse
 
-* Lowercase with underscores
-* Consistent naming across code
+* Reusable logic functions
+* Avoid repeated code
 
-### 3. Comments
+### 3. Separation of Logic & Execution
 
-* Explain why, not what
-* Avoid obvious comments
-* Keep comments short and clear
+* Functions defined first
+* Execution handled in `main()`
+
+### 4. Entry Point
+
+* `if __name__ == "__main__"` ensures controlled execution
 
 ---
 
@@ -52,7 +55,7 @@ project/
 
 ```bash
 cd your_project_path
-python script\readability_demo.py
+python script\structured_code_demo.py
 ```
 
 ---
@@ -60,23 +63,21 @@ python script\readability_demo.py
 ## 📤 Sample Output
 
 ```bash
-Bad Example Result: 500
-Good Example Result: 500
-Final Amount after discount: 450.0
-User: Anushka
-Age: 20
+Total Price: 600
+Final Price after discount: 540.0
 ```
 
 ---
 
 ## ⚠️ Key Learnings
 
-* Good naming reduces need for comments
-* Comments should explain intent
-* Clean code improves readability and teamwork
+* Code should be structured into sections
+* Functions improve reusability
+* Main function keeps execution clean
+* Structured code is easier to maintain
 
 ---
 
 ## 🚀 Conclusion
 
-Readable code is essential for collaboration, debugging, and maintaining software. Following naming conventions and writing meaningful comments improves overall code quality.
+Well-structured code improves readability, reduces bugs, and makes programs easier to scale and maintain.
