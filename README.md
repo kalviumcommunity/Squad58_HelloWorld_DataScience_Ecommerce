@@ -1,98 +1,98 @@
-# Data Organization: Raw, Processed, and Output Data
+# 📊 Python Script for Data Analysis
 
-This project demonstrates proper organization of data across different stages in a Data Science workflow. The goal is to maintain data integrity, ensure reproducibility, and avoid confusion between input and output files.
+## 📌 Project Overview
+
+This project demonstrates how to create and run a standalone Python script for basic data analysis.
+It focuses on moving from Jupyter Notebooks to script-based workflows, which are essential for automation and real-world applications.
 
 ---
 
-## Folder Structure
+## 🎯 Objectives
 
-your-project/
+* Understand what a Python script is
+* Create a `.py` file for data analysis
+* Run a Python script using the command line
+* Observe and interpret output
+* Learn the difference between scripts and notebooks
+
+---
+
+## 📁 Project Structure
+
+```
+project/
 │
-├── data/
-│ ├── raw/
-│ │ └── sample_raw.csv
-│ │
-│ └── processed/
-│ └── sample_processed.csv
-│
-├── outputs/
-│ └── result.txt
-│
-└── README.md
-
+├── data/          # Contains datasets (raw or processed)
+├── notebooks/     # Jupyter notebooks for exploration
+├── outputs/       # Stores results or generated outputs
+├── analysis.py    # Main Python script
+└── README.md      # Project documentation
+```
 
 ---
 
-## Raw Data
+## 🧠 What is a Python Script?
 
-- Stored in `data/raw/`
-- Contains original, unmodified data  
-- Treated as **read-only**  
-- Must never be edited or overwritten  
-
-**Example:**
-
-sample_raw.csv
-
+A Python script is a `.py` file that contains code executed from top to bottom.
+Unlike notebooks, scripts are non-interactive and are mainly used for automation and reusable workflows.
 
 ---
 
-## Processed Data
+## 📝 Script Description
 
-- Stored in `data/processed/`
-- Contains cleaned or transformed data  
-- Derived from raw data  
-- Can be recreated if needed  
+The script performs simple data analysis:
 
-**Example:**
-
-sample_processed.csv
-
+* Creates a sample dataset
+* Calculates total and average values
+* Prints results to the console
 
 ---
 
-## Output Artifacts
+## ▶️ How to Run the Script
 
-- Stored in `outputs/`
-- Contains results such as reports, summaries, or visualizations  
-- Separate from data to avoid confusion  
+1. Open **Anaconda Prompt** or terminal
+2. Navigate to the project folder:
 
-**Example:**
+```
+cd path_to_your_project
+```
 
-result.txt
+3. Run the script:
 
-
----
-
-## Data Flow
-
-The data follows a one-directional flow:
-
-
-Raw Data → Processed Data → Outputs
-
-
-- Raw data is never modified  
-- Processed data is generated from raw data  
-- Outputs are generated from processed data  
+```
+python analysis.py
+```
 
 ---
 
-## Why This Structure Matters
+## 📤 Expected Output
 
-- Prevents accidental modification of raw data  
-- Ensures traceability of transformations  
-- Keeps outputs separate from inputs  
-- Makes the project easy to understand and maintain  
-- Supports reproducibility and collaboration  
+```
+Total Sales: 750
+Average Sales: 187.5
+```
 
 ---
 
-## Conclusion
+## 🔄 Script vs Notebook
 
-This structure ensures:
+| Feature     | Script (.py)           | Notebook (.ipynb)     |
+| ----------- | ---------------------- | --------------------- |
+| Execution   | Top to bottom          | Cell-by-cell          |
+| Use Case    | Automation, production | Exploration, learning |
+| Interaction | Non-interactive        | Interactive           |
 
-- Raw data integrity is preserved  
-- Processed data remains traceable  
-- Outputs are clearly separated  
-- The workflow is clean, organized, and reproducible  
+---
+
+## 💡 Why This Matters
+
+* Makes code reusable
+* Enables automation
+* Ensures consistent execution
+* Prepares for real-world data workflows
+
+---
+
+## 🚀 Conclusion
+
+This project builds a strong foundation in running Python scripts, helping transition from interactive notebooks to professional coding practices.
