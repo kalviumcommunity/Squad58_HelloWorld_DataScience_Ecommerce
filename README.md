@@ -1,18 +1,18 @@
-# 🔀 Python Conditional Statements
+# 🔁 Python Loops: for and while
 
 ## 📌 Overview
 
-This project demonstrates how to use conditional statements in Python to control program flow.
-It includes examples of `if`, `if-else`, `if-elif-else`, and logical operators.
+This project demonstrates Python loops, including `for` and `while` loops.
+Loops are used to perform repetitive tasks efficiently.
 
 ---
 
 ## 🎯 Objectives
 
-* Write conditional statements using if, elif, else
-* Compare numeric and string values
-* Use logical operators (and, or, not)
-* Control program flow based on conditions
+* Understand for loops and while loops
+* Iterate over lists and ranges
+* Control loops using break and continue
+* Avoid infinite loops
 
 ---
 
@@ -22,7 +22,7 @@ It includes examples of `if`, `if-else`, `if-elif-else`, and logical operators.
 project/
 │
 ├── script/
-│   └── conditions_demo.py
+│   └── loops_demo.py
 └── README.md
 ```
 
@@ -30,23 +30,25 @@ project/
 
 ## 🧠 Concepts Covered
 
-### 1. if Statement
+### 1. For Loop
 
-Executes code when condition is true
+* Used for fixed iterations
+* Iterates over sequences like lists and ranges
 
-### 2. if–else
+### 2. While Loop
 
-Handles both true and false cases
+* Runs based on a condition
+* Stops when condition becomes false
 
-### 3. if–elif–else
+### 3. Loop Control
 
-Handles multiple conditions
+* `break` → exits loop early
+* `continue` → skips iteration
 
-### 4. Logical Operators
+### 4. Infinite Loop Prevention
 
-* `and` → both conditions must be true
-* `or` → at least one condition true
-* `not` → reverses condition
+* Ensure loop condition changes
+* Always update variables
 
 ---
 
@@ -54,7 +56,7 @@ Handles multiple conditions
 
 ```
 cd your_project_path
-python script\conditions_demo.py
+python script\loops_demo.py
 ```
 
 ---
@@ -62,24 +64,28 @@ python script\conditions_demo.py
 ## 📤 Sample Output
 
 ```
-Number is greater than 5
-You are eligible to vote
-Grade: B
-Login successful
-Extreme weather condition
-User is not logged in
+For Loop Example:
+Number: 1
+...
+
+While Loop Example:
+Count: 1
+...
+
+Loop ended successfully
 ```
 
 ---
 
 ## ⚠️ Key Learnings
 
-* Conditions control decision-making
-* Indentation is important
-* Logical operators help combine conditions
+* For loops are used for known iterations
+* While loops depend on conditions
+* Break and continue control execution
+* Proper updates prevent infinite loops
 
 ---
 
 ## 🚀 Conclusion
 
-Conditional statements help build intelligent programs that respond to different data inputs and scenarios.
+Loops help automate repetitive tasks, making code efficient and scalable.
