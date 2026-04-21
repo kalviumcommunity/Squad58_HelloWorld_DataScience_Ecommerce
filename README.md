@@ -1,18 +1,18 @@
-# 🔁 Python Loops: for and while
+# 🔧 Python Functions
 
 ## 📌 Overview
 
-This project demonstrates Python loops, including `for` and `while` loops.
-Loops are used to perform repetitive tasks efficiently.
+This project demonstrates Python functions, which help organize code into reusable and modular blocks.
 
 ---
 
 ## 🎯 Objectives
 
-* Understand for loops and while loops
-* Iterate over lists and ranges
-* Control loops using break and continue
-* Avoid infinite loops
+* Define functions using `def`
+* Call functions correctly
+* Pass arguments to functions
+* Understand return values
+* Learn basic function scope
 
 ---
 
@@ -22,7 +22,7 @@ Loops are used to perform repetitive tasks efficiently.
 project/
 │
 ├── script/
-│   └── loops_demo.py
+│   └── functions_demo.py
 └── README.md
 ```
 
@@ -30,25 +30,25 @@ project/
 
 ## 🧠 Concepts Covered
 
-### 1. For Loop
+### 1. Function Definition
 
-* Used for fixed iterations
-* Iterates over sequences like lists and ranges
+* Using `def` to define functions
 
-### 2. While Loop
+### 2. Function Calling
 
-* Runs based on a condition
-* Stops when condition becomes false
+* Calling functions by name
 
-### 3. Loop Control
+### 3. Parameters & Arguments
 
-* `break` → exits loop early
-* `continue` → skips iteration
+* Passing values into functions
 
-### 4. Infinite Loop Prevention
+### 4. Return Values
 
-* Ensure loop condition changes
-* Always update variables
+* Returning results using `return`
+
+### 5. Function Scope
+
+* Local vs global variables
 
 ---
 
@@ -56,7 +56,7 @@ project/
 
 ```
 cd your_project_path
-python script\loops_demo.py
+python script\functions_demo.py
 ```
 
 ---
@@ -64,28 +64,24 @@ python script\loops_demo.py
 ## 📤 Sample Output
 
 ```
-For Loop Example:
-Number: 1
-...
-
-While Loop Example:
-Count: 1
-...
-
-Loop ended successfully
+Hello, welcome to Python functions!
+Sum: 15
+Multiplication Result: 20
+Full Name: Anushka Bhatt
+I am global
+I am local
 ```
 
 ---
 
 ## ⚠️ Key Learnings
 
-* For loops are used for known iterations
-* While loops depend on conditions
-* Break and continue control execution
-* Proper updates prevent infinite loops
+* Functions help avoid repetition
+* Code becomes modular and readable
+* Scope controls variable access
 
 ---
 
 ## 🚀 Conclusion
 
-Loops help automate repetitive tasks, making code efficient and scalable.
+Functions are essential for writing clean, reusable, and maintainable Python code.
