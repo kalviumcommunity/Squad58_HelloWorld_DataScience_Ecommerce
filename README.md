@@ -1,28 +1,27 @@
-# 🔄 Python Functions: Parameters and Return Values
+# 🧹 Python Code Readability (PEP 8 & Comments)
 
 ## 📌 Overview
 
-This project demonstrates how to pass data into Python functions using parameters and return results using the `return` statement.
+This project demonstrates how to write clean and readable Python code using proper variable naming and meaningful comments.
 
 ---
 
 ## 🎯 Objectives
 
-* Define functions with parameters
-* Pass arguments into functions
-* Return values from functions
-* Use returned values in further computations
-* Avoid hardcoding values
+* Use descriptive variable names
+* Follow PEP 8 naming conventions
+* Write useful comments
+* Avoid unnecessary or redundant comments
 
 ---
 
 ## 📁 Project Structure
 
-```
+```bash
 project/
 │
 ├── script/
-│   └── functions_io_demo.py
+│   └── readability_demo.py
 └── README.md
 ```
 
@@ -30,58 +29,54 @@ project/
 
 ## 🧠 Concepts Covered
 
-### 1. Parameters & Arguments
+### 1. Variable Naming
 
-* Parameters define inputs
-* Arguments provide actual values
+* Use meaningful names
+* Follow snake_case style
+* Avoid vague names like x, y
 
-### 2. Return Statement
+### 2. PEP 8 Conventions
 
-* Sends result back from function
-* Ends function execution
+* Lowercase with underscores
+* Consistent naming across code
 
-### 3. Using Returned Values
+### 3. Comments
 
-* Store results in variables
-* Use results in further calculations
-
-### 4. Clean Function Design
-
-* Avoid hardcoding
-* Prefer return over print
+* Explain why, not what
+* Avoid obvious comments
+* Keep comments short and clear
 
 ---
 
 ## ▶️ How to Run
 
-```
+```bash
 cd your_project_path
-python script\functions_io_demo.py
+python script\readability_demo.py
 ```
 
 ---
 
 ## 📤 Sample Output
 
-```
-Addition Result: 15
-Square Result: 16
-Multiplication of results: 240
-Hello, Anushka
-Total Price: 300
+```bash
+Bad Example Result: 500
+Good Example Result: 500
+Final Amount after discount: 450.0
+User: Anushka
+Age: 20
 ```
 
 ---
 
 ## ⚠️ Key Learnings
 
-* Functions should return values instead of only printing
-* Data flows into functions via parameters
-* Returned values can be reused
-* Functions improve modularity
+* Good naming reduces need for comments
+* Comments should explain intent
+* Clean code improves readability and teamwork
 
 ---
 
 ## 🚀 Conclusion
 
-Functions with proper input and output handling make code reusable, scalable, and easier to maintain.
+Readable code is essential for collaboration, debugging, and maintaining software. Following naming conventions and writing meaningful comments improves overall code quality.
