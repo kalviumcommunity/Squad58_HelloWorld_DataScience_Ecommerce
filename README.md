@@ -1,19 +1,18 @@
-# 📊 Python Script for Data Analysis
+# 📦 Python Collections: Lists, Tuples, Dictionaries
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project demonstrates how to create and run a standalone Python script for basic data analysis.
-It focuses on moving from Jupyter Notebooks to script-based workflows, which are essential for automation and real-world applications.
+This project demonstrates Python’s core collection data structures: lists, tuples, and dictionaries.
+These structures are used to store and manage multiple values efficiently.
 
 ---
 
 ## 🎯 Objectives
 
-* Understand what a Python script is
-* Create a `.py` file for data analysis
-* Run a Python script using the command line
-* Observe and interpret output
-* Learn the difference between scripts and notebooks
+* Understand lists, tuples, and dictionaries
+* Access and modify elements
+* Learn mutable vs immutable behavior
+* Use appropriate data structures
 
 ---
 
@@ -22,77 +21,67 @@ It focuses on moving from Jupyter Notebooks to script-based workflows, which are
 ```
 project/
 │
-├── data/          # Contains datasets (raw or processed)
-├── notebooks/     # Jupyter notebooks for exploration
-├── outputs/       # Stores results or generated outputs
-├── analysis.py    # Main Python script
-└── README.md      # Project documentation
+├── data/
+├── notebooks/
+├── outputs/
+├── script/
+│   └── collections_demo.py
+└── README.md
 ```
 
 ---
 
-## 🧠 What is a Python Script?
+## 🧠 Concepts Covered
 
-A Python script is a `.py` file that contains code executed from top to bottom.
-Unlike notebooks, scripts are non-interactive and are mainly used for automation and reusable workflows.
+### 1. Lists
+
+* Ordered and mutable
+* Supports adding, removing, updating elements
+
+### 2. Tuples
+
+* Ordered but immutable
+* Cannot be modified after creation
+
+### 3. Dictionaries
+
+* Key-value pairs
+* Fast and structured data access
 
 ---
 
-## 📝 Script Description
+## ▶️ How to Run
 
-The script performs simple data analysis:
-
-* Creates a sample dataset
-* Calculates total and average values
-* Prints results to the console
-
----
-
-## ▶️ How to Run the Script
-
-1. Open **Anaconda Prompt** or terminal
-2. Navigate to the project folder:
-
-```
-cd path_to_your_project
-```
-
-3. Run the script:
-
-```
-python analysis.py
+```bash
+cd your_project_path
+python script\collections_demo.py
 ```
 
 ---
 
-## 📤 Expected Output
+## 📤 Sample Output
 
 ```
-Total Sales: 750
-Average Sales: 187.5
+Original List: [10, 20, 30, 40]
+Updated List: [10, 25, 40, 50]
+
+Tuple: (5, 10, 15)
+Tuples are immutable
+
+Dictionary: {'name': 'Anushka', 'age': 20}
+Updated Dictionary: {'name': 'Anushka', 'age': 21, 'city': 'Delhi'}
 ```
 
 ---
 
-## 🔄 Script vs Notebook
+## ⚠️ Key Learnings
 
-| Feature     | Script (.py)           | Notebook (.ipynb)     |
-| ----------- | ---------------------- | --------------------- |
-| Execution   | Top to bottom          | Cell-by-cell          |
-| Use Case    | Automation, production | Exploration, learning |
-| Interaction | Non-interactive        | Interactive           |
-
----
-
-## 💡 Why This Matters
-
-* Makes code reusable
-* Enables automation
-* Ensures consistent execution
-* Prepares for real-world data workflows
+* Lists can be modified
+* Tuples cannot be changed
+* Dictionaries use keys instead of indexes
 
 ---
 
 ## 🚀 Conclusion
 
-This project builds a strong foundation in running Python scripts, helping transition from interactive notebooks to professional coding practices.
+Understanding collections helps organize data efficiently and write cleaner, more maintainable Python code.
