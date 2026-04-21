@@ -1,18 +1,18 @@
-# 📦 Python Collections: Lists, Tuples, Dictionaries
+# 🔀 Python Conditional Statements
 
 ## 📌 Overview
 
-This project demonstrates Python’s core collection data structures: lists, tuples, and dictionaries.
-These structures are used to store and manage multiple values efficiently.
+This project demonstrates how to use conditional statements in Python to control program flow.
+It includes examples of `if`, `if-else`, `if-elif-else`, and logical operators.
 
 ---
 
 ## 🎯 Objectives
 
-* Understand lists, tuples, and dictionaries
-* Access and modify elements
-* Learn mutable vs immutable behavior
-* Use appropriate data structures
+* Write conditional statements using if, elif, else
+* Compare numeric and string values
+* Use logical operators (and, or, not)
+* Control program flow based on conditions
 
 ---
 
@@ -21,11 +21,8 @@ These structures are used to store and manage multiple values efficiently.
 ```
 project/
 │
-├── data/
-├── notebooks/
-├── outputs/
 ├── script/
-│   └── collections_demo.py
+│   └── conditions_demo.py
 └── README.md
 ```
 
@@ -33,28 +30,31 @@ project/
 
 ## 🧠 Concepts Covered
 
-### 1. Lists
+### 1. if Statement
 
-* Ordered and mutable
-* Supports adding, removing, updating elements
+Executes code when condition is true
 
-### 2. Tuples
+### 2. if–else
 
-* Ordered but immutable
-* Cannot be modified after creation
+Handles both true and false cases
 
-### 3. Dictionaries
+### 3. if–elif–else
 
-* Key-value pairs
-* Fast and structured data access
+Handles multiple conditions
+
+### 4. Logical Operators
+
+* `and` → both conditions must be true
+* `or` → at least one condition true
+* `not` → reverses condition
 
 ---
 
 ## ▶️ How to Run
 
-```bash
+```
 cd your_project_path
-python script\collections_demo.py
+python script\conditions_demo.py
 ```
 
 ---
@@ -62,26 +62,24 @@ python script\collections_demo.py
 ## 📤 Sample Output
 
 ```
-Original List: [10, 20, 30, 40]
-Updated List: [10, 25, 40, 50]
-
-Tuple: (5, 10, 15)
-Tuples are immutable
-
-Dictionary: {'name': 'Anushka', 'age': 20}
-Updated Dictionary: {'name': 'Anushka', 'age': 21, 'city': 'Delhi'}
+Number is greater than 5
+You are eligible to vote
+Grade: B
+Login successful
+Extreme weather condition
+User is not logged in
 ```
 
 ---
 
 ## ⚠️ Key Learnings
 
-* Lists can be modified
-* Tuples cannot be changed
-* Dictionaries use keys instead of indexes
+* Conditions control decision-making
+* Indentation is important
+* Logical operators help combine conditions
 
 ---
 
 ## 🚀 Conclusion
 
-Understanding collections helps organize data efficiently and write cleaner, more maintainable Python code.
+Conditional statements help build intelligent programs that respond to different data inputs and scenarios.
