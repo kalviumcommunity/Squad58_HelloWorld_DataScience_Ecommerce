@@ -1,18 +1,18 @@
-# 🔧 Python Functions
+# 🔄 Python Functions: Parameters and Return Values
 
 ## 📌 Overview
 
-This project demonstrates Python functions, which help organize code into reusable and modular blocks.
+This project demonstrates how to pass data into Python functions using parameters and return results using the `return` statement.
 
 ---
 
 ## 🎯 Objectives
 
-* Define functions using `def`
-* Call functions correctly
-* Pass arguments to functions
-* Understand return values
-* Learn basic function scope
+* Define functions with parameters
+* Pass arguments into functions
+* Return values from functions
+* Use returned values in further computations
+* Avoid hardcoding values
 
 ---
 
@@ -22,7 +22,7 @@ This project demonstrates Python functions, which help organize code into reusab
 project/
 │
 ├── script/
-│   └── functions_demo.py
+│   └── functions_io_demo.py
 └── README.md
 ```
 
@@ -30,25 +30,25 @@ project/
 
 ## 🧠 Concepts Covered
 
-### 1. Function Definition
+### 1. Parameters & Arguments
 
-* Using `def` to define functions
+* Parameters define inputs
+* Arguments provide actual values
 
-### 2. Function Calling
+### 2. Return Statement
 
-* Calling functions by name
+* Sends result back from function
+* Ends function execution
 
-### 3. Parameters & Arguments
+### 3. Using Returned Values
 
-* Passing values into functions
+* Store results in variables
+* Use results in further calculations
 
-### 4. Return Values
+### 4. Clean Function Design
 
-* Returning results using `return`
-
-### 5. Function Scope
-
-* Local vs global variables
+* Avoid hardcoding
+* Prefer return over print
 
 ---
 
@@ -56,7 +56,7 @@ project/
 
 ```
 cd your_project_path
-python script\functions_demo.py
+python script\functions_io_demo.py
 ```
 
 ---
@@ -64,24 +64,24 @@ python script\functions_demo.py
 ## 📤 Sample Output
 
 ```
-Hello, welcome to Python functions!
-Sum: 15
-Multiplication Result: 20
-Full Name: Anushka Bhatt
-I am global
-I am local
+Addition Result: 15
+Square Result: 16
+Multiplication of results: 240
+Hello, Anushka
+Total Price: 300
 ```
 
 ---
 
 ## ⚠️ Key Learnings
 
-* Functions help avoid repetition
-* Code becomes modular and readable
-* Scope controls variable access
+* Functions should return values instead of only printing
+* Data flows into functions via parameters
+* Returned values can be reused
+* Functions improve modularity
 
 ---
 
 ## 🚀 Conclusion
 
-Functions are essential for writing clean, reusable, and maintainable Python code.
+Functions with proper input and output handling make code reusable, scalable, and easier to maintain.
